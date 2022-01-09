@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="myjs.js"></script>
+</head>
+<body>
+    <script>
+        let billion = 1_000_000_000;
+        document.write(billion);
+        let timestamp = Date.now();
+        console.log(timestamp);//时间戳
+        let now = new Date();//当前的系统时间
+        console.log(now);
+        let ms = now.getTime();//转换为毫秒的时间戳
+        console.log(ms);
+        let iso = now.toISOString();//转换为标准格式的字符串
+        console.log(iso);
+    </script>
+</body>
+</html>
